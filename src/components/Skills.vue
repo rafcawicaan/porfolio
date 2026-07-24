@@ -38,6 +38,10 @@ const groups: SkillGroup[] = [
     { name: "PostgreSQL", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" },
     { name: "SQL", fa: "database" },
     { name: "MVC", fa: "sitemap" },
+    { name: "Git", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" },
+    { name: "GitHub", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" },
+    { name: "Postman", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" },
+    { name: "VS Code", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" },
     { name: "Python", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" },
     { name: "Django", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" },
     { name: "Flask", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg" },
@@ -48,17 +52,18 @@ const groups: SkillGroup[] = [
     { name: "Social Media Posts", fa: "share-nodes" },
     { name: "Presentation Design", fa: "display" },
     { name: "Basic Photo Editing", fa: "image" },
-    { name: "Content Scheduling", fa: "calendar-days" },
+    // { name: "Content Scheduling", fa: "calendar-days" },
     { name: "Data Entry", fa: "keyboard" },
     { name: "Web Research", fa: "magnifying-glass" },
     { name: "Documents", fa: "file-lines" },
     { name: "Email Support", fa: "envelope" },
     { name: "File Organization", fa: "folder-tree" },
-    { name: "Customer Support", fa: "headset" },
+    // { name: "Customer Support", fa: "headset" },
   ] },
 ];
 </script>
 <style scoped>
 .skill-icon { width:3.5rem; height:3.5rem; margin:auto; padding:.35rem; object-fit:contain; border-radius:.65rem; }
 .skill-icon--service { display:grid; place-items:center; background:rgba(37,99,235,.12); color:#2563eb; font-size:1.65rem; }
+.card { min-height: 30rem; }
 </style>
